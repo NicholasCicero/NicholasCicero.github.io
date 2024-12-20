@@ -3,7 +3,7 @@ const createNav = () => {
 
     nav.innerHTML = `
 <header class="header">
-    <img src="img/stagefright_logo_web.png" class="brand-logo" alt="LOGO" height="100" width="350">
+    <img src="stagefright/img/stagefright_logo_web.png" class="brand-logo" alt="LOGO" height="100" width="350">
 
     <nav class="navbar" style="font-family: 'Poppins', sans-serif">
         <a href="index.html" class="metal-mania-regular">Home</a>
