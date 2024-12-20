@@ -15,7 +15,7 @@ const createWhiteTShirt = (title, price) => {
     product.innerHTML = `
     <div class="product-card">
         <div class="product-image">
-            <img src="stagefright/img/stagefright_white-shirt.png" alt="product image here">
+            <img src="stagefright_white-shirt.png" alt="product image here">
         </div>
         <div class="product-description">
             <div class="product-name">
@@ -34,7 +34,7 @@ const createBlackTShirt = (title, price) => {
     product.innerHTML = `
     <div class="product-card">
         <div class="product-image">
-            <img src="stagefright/img/stagefright_black-shirt.png" alt="product image here">
+            <img src="stagefright_black-shirt.png" alt="product image here">
         </div>
         <div class="product-description">
             <div class="product-name">
