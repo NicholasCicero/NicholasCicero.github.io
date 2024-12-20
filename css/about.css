@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+}
+
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+}
+
+h3 {
+    color: white;
+}
+
+.band-info-container {
+
+}
+
+.band-info {
+    width: 30%;
+    bottom: 11%;
+    position: absolute;
+    float: left;
+}
+
+.band-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.backstory {
+    width: 25%;
+    position: absolute;
+    top: 85%;
+    left: 94%;
+    transform: translate(-85%, -94%);
+}
+
+.member-list {
+    position: absolute;
+    bottom: -220%;
+}
+
+.band-member-info {
+    display: flex;
+}
+.member-name-salem {
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    transform: translate(-1%, -60%);
+}
+
+.member-name-echo {
+    position: absolute;
+    top: 29%;
+    left: 60%;
+    transform: translate(-29%, -60%);
+}
+
+.member-name-raven {
+    position: absolute;
+    top: 54%;
+    left: 60%;
+    transform: translate(-54%, -60%);
+}
+
+.member-name-dagger {
+    position: absolute;
+    top: 79%;
+    left: 60%;
+    transform: translate(-79%, -60%);
+}
+
+.member-info-salem {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+.member-info-echo {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    transform: translate(-38%, -45%);
+}
+
+.member-info-raven {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-65%, -55%);
+}
+
+.member-info-dagger {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-90%, -60%);
+}

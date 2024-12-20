@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 150px auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.new-rocker-regular {
+    font-family: "New Rocker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}

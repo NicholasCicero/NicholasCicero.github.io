@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: black;
+    font-family: 'cabin', sans-serif;
+}
+
+.products-page{
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+}
+
+.product-card{
+    width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-card .product-image{
+    width: 100%;
+    height: auto;
+}
+
+.product-description{
+    padding: 16px;
+    color: white;
+}
+
+.product-description .product-name h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+.product-description .product-price h3{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+}
+
+.product{
+    color: white;
+}

@@ -1,0 +1,102 @@
+.div{
+
+
+    title{
+        text-align: center;
+        color: white;
+    }
+
+    table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        padding: 100px;
+        color: white;
+        margin: 20px auto;
+    }
+
+    th,td{
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    button{
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: black;}
+}
+
+tr {
+    background-color: black;
+}
+
+
+
+h1{
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: white;
+}
+
+tr:nth-child(even){
+    color: black;
+}
+
+body{
+    margin: 150px auto;
+    font-family: arial, sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+.event{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.date{
+    font-weight: bold;
+    color: white;
+}
+
+.location{
+    color: white;
+}
+
+.tickets{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

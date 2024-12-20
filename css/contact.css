@@ -1,0 +1,93 @@
+.title{
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+.title-2{
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 750px;
+    height: 750px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form{
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.contact-info{
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-content: space-evenly;
+}
+
+.container .input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
+    color: white
+}
+
+.container .input label{
+    padding: 8px 12px;
+    background-color: darkslategrey;
+    font-size: large;
+}
+
+.container .input input{
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    width: 500px;
+    height: 55px;
+}
+
+.container .input{
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+}
+
+.link{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 0;
+    border: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
+    color: white;
+    align-items: center;
+    display: inline-block;
+}
+
+.link a{
+    color: white;
+    padding: 8px 12px;
+    background-color: deeppink;
+    font-size: large;
+}
+
+.link a:hover{
+    color: lightseagreen;
+}
