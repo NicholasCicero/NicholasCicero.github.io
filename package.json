@@ -2,7 +2,8 @@
   "name": "stagefright_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "homepage": "https://nicholascicero.github.io/index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
